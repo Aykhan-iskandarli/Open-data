@@ -1,0 +1,22 @@
+@import "./src/assets/styles/abstracts";
+.tagList {
+  display: flex;
+  justify-content: start;
+  margin-top: rem(19);
+  flex-wrap: wrap;
+  li {
+    margin: rem(10) rem(0) 0 0;
+    background: $tagBg;
+    border-radius: $BradiusBig;
+    padding: rem(5) rem(17.6);
+    height: fit-content;
+    &:not(:last-child) {
+      margin-right: rem(10);
+    }
+    line-height: rem(18);
+    font-size: $fontSizeSm;
+    color: $primary;
+    font-weight: $defaultWeight;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,4 @@
+export enum SubscribersActionTypes {
+    SUBSCRIBERS_SUCCESS = 'SUBSCRIBERS_SUCCESS',
+    SUBSCRIBERS_FAIL = 'SUBSCRIBERS_FAIL',
+}

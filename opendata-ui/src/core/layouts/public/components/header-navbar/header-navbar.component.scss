@@ -1,0 +1,35 @@
+@import "../../../../../assets/styles/abstracts";
+
+.header-navbar{
+  background-color: $bg_color;
+  &__left{
+    display: flex;
+    align-items: center;
+    img{
+      max-height: rem(48);
+    }
+  }
+  &__middle{
+    display: flex;
+    align-items: center;
+    input{
+      color: $forgot-password-color;
+      border: none;
+      height: rem(40);
+      width: 40%;
+      outline: none;
+      border-radius: rem(5);
+      background-color: $input-dark;
+    }
+    input::placeholder{
+      color: $forgot-password-color
+    }
+    input:focus{
+      border: 1px solid $forgot-password-color;
+      outline: none;
+    }
+  }
+  &__right{
+    height: 100%;
+  }
+}

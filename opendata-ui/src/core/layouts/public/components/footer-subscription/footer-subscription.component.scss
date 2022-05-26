@@ -1,0 +1,16 @@
+@import "../../../../../assets/styles/abstracts";
+.subscription{
+    p{
+        color: $white;
+        font-size: $defaultSize;
+        margin-bottom: 20px;
+    }
+    .subs-search{
+        height: 50px;
+        display: flex;
+        .footer-input{
+            margin-right: 10px;
+            width: 268px;
+        }
+    }
+}

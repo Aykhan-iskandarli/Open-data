@@ -1,0 +1,111 @@
+@import "../../../../assets/styles/abstracts";
+.category {
+  padding-top: rem(60);
+  padding-bottom: rem(60);
+  background-color: $bg_second_color;
+  .categoryNameList {
+    display: flex;
+    box-shadow: $tab;
+    .lightGray {
+      display: flex;
+      align-items: center;
+      width: calc(100% / 4);
+      height: rem(60);
+      border-radius: $Bradius;
+      background-color: $tab_bg_color;
+      padding: rem(14) rem(16);
+      color: $text_color;
+      cursor: pointer;
+      transition: all 0.3s;
+
+      span {
+        font-weight: $lgWeight;
+        font-size: $fontSizeMd;
+      }
+      &.active {
+        color: $main;
+        background-color: #fff;
+        box-shadow: $tab_active;
+      }
+      &:hover {
+        color: $main;
+        box-shadow: $tab_active;
+      }
+      .tab-icon {
+        background: $icon_bg_color;
+        margin-right: rem(16);
+        padding: rem(8);
+        border-radius: 50%;
+        width: rem(32);
+        height: rem(32);
+        img {
+          width: rem(15);
+        }
+      }
+    }
+  }
+
+  .categoryList {
+    &_item {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding: rem(19) rem(16);
+      border-radius: $Bradius;
+      box-shadow: $tab_sub;
+      background-color: $white;
+      font-size: $fontSizeMd;
+      cursor: pointer;
+      img {
+        width: rem(25);
+        height: rem(25);
+        margin-right: rem(12);
+        object-fit: contain;
+      }
+      .sub-name {
+        font-weight: $defaultWeight;
+        font-size: $fontSizeMd;
+        margin-right: auto;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+      .sub-count {
+        background: rgba(164, 175, 183, 0.13);
+        border-radius: $Bradius;
+        min-width: rem(32);
+        min-height: rem(32);
+        font-size: $fontSizeSm;
+        text-align: center;
+        line-height: rem(20);
+        padding: rem(6);
+      }
+    }
+  }
+  .all-category {
+    display: flex;
+    justify-content: center;
+    .get-all {
+      margin-top: rem(40);
+      button {
+        display: flex;
+        align-items: center;
+        border-radius: $Bradius;
+        border: rem(1) solid $darkColor;
+        width: rem(205);
+        height: rem(50);
+        justify-content: center;
+        background-color: transparent;
+        cursor: pointer;
+        span {
+          color: $darkColor;
+          font-size: $defaultSize;
+          font-weight: $lgWeight;
+        }
+        img {
+          margin-left: rem(41);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@import "../../../../../assets/styles/abstracts/";
+.header-right {
+  height: 100%;
+  &__items {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    li {
+     a,a:active, a:visited {
+      color: #082233;
+  }
+      button {
+        background-color: transparent;
+        color: #0f7ee3;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

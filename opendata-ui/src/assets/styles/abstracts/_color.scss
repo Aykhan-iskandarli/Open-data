@@ -1,0 +1,141 @@
+$header-navbar-bg-color: #0e1726;
+
+//common
+$main: #4361ee;
+$dark-blue: #0e1726;
+$bg: #f1f2f3;
+$light: #fafafa;
+$text: #3b3f5c;
+$border: #d7e0ea;
+$icon: #506690;
+$black: #000;
+$white: #fff;
+
+//tab
+$tab: #805dca;
+$tab-border-bottom: lightgrey;
+
+//button
+$button-text-color: #fff;
+$primary-button-color: #4361ee;
+$info-button-color: #2196f3;
+$success-button-color: #1abc9c;
+$warning-button-color: #e2a03f;
+$danger-button-color: #e7515a;
+$dark-button-color: #3b3f5c;
+$button-color: #f1f2f3;
+$main-button-text-color: #3b3f5c;
+$secondary-button-color: #805dca;
+
+//inputs
+$input-border-color: #bfc9d4;
+$input-border-focus-color: #4361ee;
+$input-text-color: #3b3f5c;
+$input-focus-shadow-color: #c2d5ff;
+$input-dark: #51536547;
+
+//pagination
+$pagination-color: #2b455f;
+
+//components
+$toast-default-color: #3b3f5c;
+$login-border-color: #e0e6ed;
+$label-color: #3b3f5c;
+$forgot-password-color: #888ea8;
+$header-border: #ebedf2;
+
+//left-menu
+$left-menu-hover: #bfc9d4;
+$breadcrumbs-item-active: #3b3f5c;
+$breadcrumbs-item: #888ea8;
+$validation-error-color: red;
+$table-header-bg-color: #e7f7ff;
+$gradient-blue: #4361ee;
+$gradient-lilac: #805dca;
+$shadow-color: #e0e6ed;
+$btn-border-color: #d3d3d3;
+
+//alert
+
+$alert-primary: #eaf1ff;
+$alert-text-primary: #4361ee;
+$alert-warning: #fff9ed;
+$alert-text-warning: #e2a03f;
+$alert-success: #ddf5f0;
+$alert-text-success: #1abc9c;
+$alert-info: #e7f7ff;
+$alert-text-info: #2196f3;
+$alert-dark: #e3e4eb;
+$alert-text-dark: #3b3f5c;
+$alert-danger: #fff5f5;
+$alert-text-danger: #e7515a;
+
+//modal
+$modal-color: #888ea8;
+$modal-border: #e0e6ed;
+$modal-title: #3b3f5c;
+
+//auth panel
+$auth-subtitle-text: #888ea8;
+
+//dropdown
+$dropdown-text-color-hover: #2196f3;
+
+//loading
+$loadingBackdropBgColor: rgba(0, 0, 0, 0.3);
+
+// opd colors
+$main: #0f7ee3;
+$text_color: #082233;
+$text_second_color: #546571;
+$bg_second_color: #fcfdff;
+$bg_color: #fff;
+$tab_bg_color: #f4f9fe;
+$icon_bg_color: #e7f2fc;
+$opd_green: #62e1bb;
+$opd_light_blue: #38afcf;
+$opd_dark_blue: #0669c3;
+
+//shadows
+$tab: 0 0px 12px 0px rgb(8 34 51 / 6%);
+$tab_active: 0px 7px 24px rgba(8, 34, 51, 0.05);
+$tab_sub: 0px 0px 12px rgba(15, 126, 227, 0.03);
+$boxShadowCat: 0px 0px 12px rgba(15, 126, 227, 0.03);
+$boxShadowCard:0px 0px 12px rgb(8 34 51 / 5%);
+
+/* color */
+$primary: hsl(209, 88%, 47%);
+$white: #ffffff;
+$rgbPrimary: rgba(209, 88%, 47%, 0.05);
+$lighGreen: #62e1bb;
+$opacityWhite: rgba(255, 255, 255, 0.1);
+$borderColor: #e5e5e5;
+$darkColor: #082233;
+$bgBody: rgba(255, 255, 255, 0.93);
+$tagBg: rgba(15, 126, 227, 0.07);
+$accColor: rgba(15, 126, 227, 0.07);
+$footerBg:#082233;
+$aboutColor:#546571;
+$lightGray:rgb(249, 248, 248);
+$dividerColor:rgba(164, 175, 183, 0.13);
+$modal_guide_border:#F3F5F6;
+
+$iconColor: rgba(164, 175, 183, 0.13);
+$verticalDivider: #0f7ee3;
+
+/* radius */
+$Bradius: rem(4);
+$BradiusBig: rem(30);
+
+/* font size */
+$defaultSize: rem(16);
+$fontSizeXs: rem(12);
+$fontSizeSm: rem(14);
+$fontSizeMd: rem(18);
+$fontSizeBig: rem(32);
+$fontSizeOpenData: rem(36);
+$fontSizeBigHero: rem(44);
+
+/* font weight */
+$defaultWeight: 400;
+$lgWeight: 700;

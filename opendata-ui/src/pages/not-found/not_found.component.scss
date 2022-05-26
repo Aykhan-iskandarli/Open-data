@@ -1,0 +1,87 @@
+@import "../../assets/styles/abstracts";
+
+.error-page {
+  background-size: cover;
+  position: fixed;
+  top: rem(0);
+  left: rem(0);
+  min-width: 100%;
+  min-height: 100%;
+  font-family: inherit;
+
+  & .text-md-left {
+    text-align: left !important;
+  }
+
+  & .theme-logo {
+    height: rem(62);
+  }
+}
+
+.error-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: rem(30);
+  min-height: rem(600);
+
+  &__number {
+    font-size: rem(180);
+    color: $button-text-color;
+    font-weight: 600;
+    margin-bottom: rem(10);
+    margin-top: rem(150);
+    letter-spacing: rem(9);
+    text-shadow: 0 rem(4) rem(6) #ccc;
+  }
+
+  &__mini-text {
+    font-size: rem(30);
+    letter-spacing: rem(2);
+    font-weight: 700;
+    color: $primary-button-color;
+  }
+
+  &__error-text {
+    font-size: rem(18);
+    color: #3b3f5c;
+    font-weight: 600;
+    margin-top: rem(6) !important;
+    letter-spacing: rem(2);
+    margin-bottom: rem(60);
+  }
+
+  .btn {
+    padding: rem(8) rem(20);
+    background-image: linear-gradient(
+      135deg,
+      $gradient-blue 0%,
+      $gradient-lilac 100%
+    );
+    letter-spacing: rem(2);
+    text-decoration: none;
+    cursor: pointer;
+    border: rem(1) solid transparent;
+    font-size: rem(17);
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+    & :hover {
+      background-image: linear-gradient(
+        to right,
+        $gradient-blue 0%,
+        $gradient-lilac 100%
+      );
+    }
+
+    &--primary {
+      color: $button-text-color !important;
+      background-color: $gradient-blue !important;
+      border-color: $gradient-blue;
+      box-shadow: rem(0) rem(10) rem(20) rem(-10) $gradient-blue;
+    }
+  }
+}

@@ -1,0 +1,180 @@
+@import "./../../assets/styles/abstracts";
+
+.information_detail_section {
+    margin-top: rem(60);
+    margin-bottom: rem(90);
+
+    .information_detail {
+
+        .detail-back {
+            display: flex;
+            align-items: center;
+            margin-top: rem(60);
+            margin-bottom: rem(40);
+            cursor: pointer;
+            .detail-back-img {
+                border-radius: $Bradius;
+                width: rem(32);
+                height: rem(32);
+                background-color: $iconColor;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            span {
+                margin-left: rem(12);
+                color: $aboutColor;
+            }
+        }
+    }
+
+    .info_detail_bottom {
+        margin-top: rem(40);
+
+        .info_detail_content {
+            background-color: $white;
+            border-radius: $Bradius;
+            padding: 0 rem(10);
+
+            .content_list {
+                .border-bottom {
+                    border-bottom: none !important;
+                }
+
+                .content_list_cont {
+                    display: flex;
+                    border-bottom: 1px solid $borderColor;
+                    height: rem(42.5);
+
+                    .border-right {
+                        border-right: none !important;
+                    }
+
+                    .content_list_item_title {
+                        width: rem(148);
+                        border-right: 1px solid $borderColor;
+                        display: flex;
+                        align-items: center;
+
+                        p {
+                            font-size: $fontSizeSm;
+                            font-weight: $lgWeight;
+                            color: $darkColor;
+                            line-height: 18px;
+                        }
+
+                    }
+
+                    .content_list_item_desc {
+                        display: flex;
+                        align-items: center;
+
+                        span {
+                            margin-left: rem(40);
+                            font-size: $fontSizeSm;
+                            font-weight: $defaultWeight;
+                            color: $aboutColor;
+                        }
+                    }
+                }
+            }
+        }
+
+        .info_file_type_list {
+            background-color: $white;
+            border-radius: $Bradius;
+            width: 100%;
+
+            .details-color {
+                background-color: $primary;
+            }
+
+            .file_type_cont {
+                padding: 0 rem(6);
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                .file_type_div{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    .file_type{
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        justify-content: space-between;
+                        border-bottom: 1px solid $dividerColor;
+                    }
+     
+                }
+                .file_type_icon_list{
+                    display: flex;
+                    flex-direction: column;
+                }
+                .file_type_icon{
+                    height: rem(40);
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    .icon_code{
+                        margin-right: rem(10);
+                    }
+                    .clipboard{
+                        background-color: transparent;
+                        border: none;
+                        padding: 0;
+                    }
+                    img{
+                        background-color: $iconColor;
+                       padding: rem(5);
+                        object-fit: contain;
+                        border-radius: $Bradius;
+                        width: rem(28);
+                        height: rem(28);
+                    cursor: pointer;
+
+                    }
+                }
+                &:not(:last-child) {
+                    padding-bottom: 0;
+                }
+                .file_link{
+                    position: relative;
+                    display: flex;
+                    flex-flow: column;
+                    p{
+                        height: rem(40);
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+                .file_type_name {
+                    display: flex;
+                    position: relative;
+                    align-items: center;
+                    height: 40px;
+                }
+
+                .file_name {
+                    width: rem(28);
+                    height: rem(18);
+                }
+
+                .vertical_divdier {
+                    width: 2px;
+                    height: 20px;
+                    background-color: $primary;
+                    margin: 0 12px;
+              
+                }
+
+            }
+
+            .detail_divider {
+                margin-top: rem(10);
+                margin-bottom: 0;
+            }
+        }
+    }
+}

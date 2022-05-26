@@ -1,0 +1,19 @@
+@import "./../../assets/styles/abstracts";
+.form-control{
+    outline: none;
+    width: 100%;
+    border: 1px solid $borderColor;
+    background-color: $white;
+    border-radius: $Bradius;
+    padding: 20px;
+    height: 50px;
+}
+
+// .input-div{
+//     width: 100%;
+// }
+
+.error-text{
+    font-size: $fontSizeXs;
+    color: red;
+}

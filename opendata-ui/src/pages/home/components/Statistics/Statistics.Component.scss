@@ -1,0 +1,61 @@
+@import "../../../../assets/styles/abstracts";
+
+.statistics {
+  padding: rem(60) 0;
+  background-color: $bg_second_color;
+  .chart,
+  .currentData {
+    padding: rem(20);
+    background-color: #fff;
+    box-shadow: 0px 0px 12px rgba(15, 126, 227, 0.03);
+    border-radius: $border-radius;
+    .section-title {
+      color: $text_color;
+      font-weight: 700;
+      font-size: rem(18);
+      padding-bottom: rem(5);
+    }
+    .section-subtitle {
+      color: $text_second_color;
+      font-weight: 400;
+      font-size: rem(14);
+      padding-bottom: rem(14);
+    }
+  }
+  .chart{
+      padding-bottom: rem(10);
+  }
+  .currentData {
+    .data-list {
+      font-weight: 700;
+      font-size: rem(14);
+      color: $text_color;
+      padding: rem(4) 0;
+      &_item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: rem(12);
+        &:not(:last-child) {
+          border-bottom: 1px solid $borderColor;
+        }
+      }
+      &_type {
+      }
+      &_count {
+        background: rgba(15, 126, 227, 0.03);
+        border-radius: $Bradius;
+        min-width: rem(46);
+        min-height: rem(32);
+        text-align: center;
+        line-height: rem(20);
+        padding: rem(6);
+      }
+    }
+  }
+}
+
+
+.apexcharts-toolbar{
+    display: none !important;
+}

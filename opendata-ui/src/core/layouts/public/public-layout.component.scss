@@ -1,0 +1,13 @@
+@import "../../../assets/styles/abstracts";
+
+.public {
+  margin-top: rem(100);
+  &__content {
+    margin-left: rem(230);
+    min-height: calc(100vh - rem(488));
+    @include transition;
+    &.active {
+      margin-left: rem(0);
+    }
+  }
+}

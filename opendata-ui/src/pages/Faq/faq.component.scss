@@ -1,0 +1,22 @@
+@import "../../assets/styles/abstracts";
+.faq_page{
+    margin: rem(60) 0;
+   .faq{
+    margin-top: rem(120);
+      .info-search-input {
+        position: relative;
+  
+        img {
+          position: absolute;
+          right: rem(10);
+          top: rem(5);
+          padding: rem(10);
+          cursor: pointer;
+          margin: rem(40) 0;
+        }
+        .faq_input{
+            margin: rem(40) 0;
+        }
+    }
+   }
+}

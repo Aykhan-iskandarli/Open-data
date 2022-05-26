@@ -1,0 +1,32 @@
+{
+  "az": {
+    "header":{
+      "about":"Haqqında",
+      "info":"Məlumatlar",
+      "contact":"Əlaqə"
+    },
+    "home": {
+      "title": "Ana Sehife"
+    }
+  },
+  "ru": {
+    "header":{
+      "about":"Haqqında ru",
+      "info":"Məlumatlar ru",
+      "contact":"Əlaqə ru"
+    },
+    "home": {
+      "title": "Ana Sehife RU"
+    }
+  },
+  "en": {
+    "header":{
+      "about":"Haqqında en",
+      "info":"Məlumatlar en",
+      "contact":"Əlaqə en"
+    },
+    "home": {
+      "title": "Ana Sehife EN"
+    }
+  }
+}

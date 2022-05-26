@@ -1,0 +1,107 @@
+@import "../../../../../assets/styles/abstracts";
+
+.footer{
+    background-color: $footerBg;
+    height: 100%;
+    .footer-content{
+        
+        padding-top: 62px;
+        .footer-top{
+            display: flex;
+            justify-content: space-between;
+            .footer-menu{
+                li{
+                    line-height: 20px;
+                    &:not(:last-child){
+                        margin-bottom: 15px;
+                    }
+                    a{
+                        color: $white;
+                        font-size: $defaultSize;
+                        font-weight:$defaultWeight;
+                        font-style: normal;
+                    }
+                }
+            }
+        
+        }
+        
+    }
+    .footer-divider{
+        background-color: $white;
+    }
+    .footer-middle{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+        .social-icons{
+            .social-icons_item{
+                &:not(:last-child){
+                    margin-right: 30px;
+                }
+            }
+        }
+     
+        .footer-contact{
+            display: flex;
+            .footer-contact-content{
+                display: flex;
+                align-items: center;
+                img{
+                    object-fit: contain;
+                }
+                .footer-number{
+                    color: $white;
+                    width: rem(200);
+                }
+                &:not(:last-child){
+                    margin-right: 32px;
+                }
+                img{
+                    margin-right: 18px;
+                }
+                p{
+                    color: $white;
+                    font-size: $fontSizeSm;
+                    line-height: 18px;
+                    font-weight: $defaultWeight;
+                }
+            }
+        }
+       
+    }
+    .footer-bottom{
+        background-color: $opacityWhite;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        .footer-bottom-content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .copy-right{
+                p{
+                    color: $white;
+                    font-size: $fontSizeXs;
+                    font-weight: $defaultWeight;
+                    line-height: 15px;
+                }
+            }
+            .copy-right-menu{
+                display: flex;
+                align-items: center;
+                li{
+                    &:not(:last-child){
+                        margin-right: 20px;
+                    }
+                    a{
+                        color: $white;
+                        font-size: $fontSizeXs;
+                        font-weight: $defaultWeight;
+                        line-height: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

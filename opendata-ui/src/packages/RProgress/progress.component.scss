@@ -1,0 +1,19 @@
+@import "./../../assets/styles/abstracts";
+
+.progress-bar{
+    margin-bottom: 24px;
+    .progress-out{
+        width: 100%;
+        height: 8px;
+        background-color: $rgbPrimary;
+        border-radius: $Bradius;
+        margin-top: 10px;
+        .progress-in{
+            width: 60%;
+            height: 8px;
+            border-radius: $Bradius;
+            z-index: 999;
+            background-color: $primary;
+        }
+    }
+}

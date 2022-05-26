@@ -1,0 +1,191 @@
+@import "../../assets/styles/abstracts";
+
+.info_section {
+  background-color: $bg_second_color;
+
+  .info {
+    margin-top: rem(60);
+    .info-search-input {
+      position: relative;
+
+      img {
+        position: absolute;
+        right: rem(10);
+        top: rem(5);
+        padding: rem(10);
+        cursor: pointer;
+      }
+      .search_autocomplete {
+        background-color: $white;
+        box-shadow: $boxShadowCard;
+        padding: rem(10) 0;
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        max-height: rem(200);
+        overflow-y: auto;
+        .search_none {
+          display: none;
+        }
+        .search_active {
+          display: flex;
+        }
+        li {
+          margin: rem(10) 0;
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          padding: rem(10);
+          transition: all 0.3s ease;
+          &:hover {
+            background-color: $lightGray;
+          }
+        }
+      }
+    }
+
+    .search-tags {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      flex-wrap: wrap;
+      margin-top: rem(10);
+      .selected-tags {
+        margin-top: rem(10);
+        margin-right: rem(12);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: rgba(8, 34, 51, 0.07);
+        padding: rem(10) rem(12);
+        color: $text_color;
+        border-radius: rem(30);
+        font-size: rem(14);
+        .clear-icon {
+          color: rgba(8, 34, 51, 0.4);
+          margin-left: rem(10);
+          font-size: rem(18);
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+        }
+        &.clear {
+          padding: rem(10) rem(12);
+          background: $text_color;
+          border-radius: rem(30);
+          color: $white;
+          cursor: pointer;
+        }
+      }
+    }
+    .info-content {
+      margin-top: rem(60);
+
+      .info-content-right {
+        margin-left: rem(32);
+        margin-bottom: rem(64);
+
+        .info_right_card {
+          margin-bottom: rem(20);
+
+          h3 {
+            font-size: $fontSizeMd;
+            font-weight: $lgWeight;
+            line-height: 23px;
+            color: $darkColor;
+          }
+
+          p {
+            font-size: $defaultSize;
+            font-weight: $defaultWeight;
+            line-height: 20px;
+            color: $aboutColor;
+            margin: rem(10) 0;
+          }
+
+          .info-tags {
+            display: flex;
+            margin-top: rem(25);
+            li {
+              background: $tagBg;
+              border-radius: $BradiusBig;
+              padding: rem(5) rem(20);
+
+              &:not(:last-child) {
+                margin-right: rem(10);
+              }
+              line-height: 18px;
+              font-size: $fontSizeSm;
+              color: $primary;
+              font-weight: $defaultWeight;
+            }
+          }
+          .info_date_container {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            border-top: 1px solid rgba(164, 175, 183, 0.13);
+            margin-top: rem(20);
+            padding-top: rem(10);
+            .info_date {
+              display: flex;
+
+              .create_date,
+              .change_date {
+                margin-right: rem(34);
+                p {
+                  font-size: rem(12);
+                  color: #a4afb7;
+                  margin: 0;
+                  margin-bottom: rem(2);
+                }
+                span {
+                  font-size: rem(14);
+                  color: $text_second_color;
+                }
+              }
+            }
+
+            .info_bottom_right {
+              display: flex;
+
+              .info_watching {
+                display: flex;
+                align-items: center;
+                margin-right: rem(20);
+                font-size: rem(14);
+                img {
+                  width: rem(20);
+                  height: rem(20);
+                  object-fit: contain;
+                  margin-right: rem(16);
+                }
+              }
+
+              .video-guide {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: $iconColor;
+                border-radius: $Bradius;
+                width: rem(99);
+                font-size: rem(14);
+                height: rem(32);
+                cursor: pointer;
+                img {
+                  margin-right: rem(10);
+                }
+
+                span {
+                  color: $primary;
+                  font-weight: $lgWeight;
+                  line-height: rem(18);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
